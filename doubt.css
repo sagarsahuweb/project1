@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+#div1
+{
+    width: fit-content;
+    /* background-color: red    ; */
+    font-size: 4vw;
+}
+#div2
+{
+    height: 2px;
+    width: 80%;
+    background: #000;
+    
+}
+#div3
+{
+    font-size: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "gilroy";
+    }
+#div3>h1{
+    font-weight: 300;
+    
+}
+button{
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    font-size: 1.4vw;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* #page4
+{
+    height: 100vh;
+    width: 100%;
+    background-color:black;   
+    color: rgb(255, 247, 247);
+    position: relative;
+    font-size: 5vw;
+    font-family: "gilroy";
+}   
+
+#page4div1{
+    height: 15vh;
+    width: 100%;
+     background-color: red; 
+    display: flex;
+    gap: 20px;
+    color: white;
+    
+    align-items: center;
+    padding: 0 20px;
+
+}
+#div1
+{
+    color: white;
+    font-size: 2.5vw;
+}
+#div2
+{
+    height: 2px;
+    width: 85%;
+    background-color: rgb(60, 60, 60);
+}
+#page4div2
+{
+    height: 42vh;
+    width: 100%;
+    background-color: red;
+    font-size: 37vh;
+    font-family: "gilroy";
+    position: absolute;
+    left: 3%;
+
+}
+#page4div3
+{
+    height: 42vh;
+    width: 100%;
+     background-color: red; 
+    font-size: 42vh;
+    font-family: "gilroy";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+}
+#bottom>button{
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    font-size: 1.4vw;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+} */
