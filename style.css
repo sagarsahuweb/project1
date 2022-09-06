@@ -698,32 +698,76 @@ html,body{
 }
 #footer{
     height: initial;
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
 }
 #footerleft
 {
+    width: 100%;
     border: none;
+    
     }
 #footertext{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    /* background-color: blue; */
+
+}
+#footertext>img{
+  
+    position: absolute;
+    top: 0%;
+    height: 600px;
+    width: 300px;
+    margin-right: 5vw;
 }
 #footerleft>#footertext>h1
 {
-    color: red;
-    font-size: 6vw;
+    
+    font-size: 5vw;
     
 }
-
-#footerright{
-    border-top: 2px solid white;
+#footertext>p
+{
+    font-size: 3vw;
+}
+#footerleft>#footertext>h3
+{
+   
+    font-size: 5vw;
+    position: absolute;
+    top: 90vw;  
+    left: 40%;  
+}
+#footerleft>#footertext>button
+{
+    
+    font-size: 3vw;
+    padding: 1vw 1vw ;
+    position: absolute;
+    top: 98vw;
+    left: 22%;   
+    display: flex;
    
 }
-
-
+#footerright{
+    border-top: 2px solid wheat;
+    height: 100vh;
+    width: 100%;
+    
+   
+}
+.icon>h2
+{
+    font-size:4vw;
+}
+.dibba{
+    font-size: 3vw;
+    padding: 2vw 3vw;
+}
 
 }
 
